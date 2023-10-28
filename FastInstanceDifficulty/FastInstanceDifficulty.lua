@@ -1,95 +1,95 @@
-local DEFAULT_TEXT = "|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\logo:0|t"
+local DEFAULT_TEXT = "|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\logo:022|t"
 ------------------------------------------------------------------------
 
 local DIFFICULTY = "Difficulty"
 local LFR, NORMAL, HEROIC, MYTHIC, CHALLENGE, TIMEWALK = 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\lfr:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\normal:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\heroic:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\mythic:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\myth+:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\timewalking:0|t"
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\lfr:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\normal:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\heroic:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\mythic:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\myth+:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\timewalking:022|t"
 if GetLocale() == "deDE" then
 	DIFFICULTY = "Schwierigkeit"
 	LFR, NORMAL, HEROIC, MYTHIC, CHALLENGE, TIMEWALK = 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\lfr:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\normal:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\heroic:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\mythic:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\myth+:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\timewalking:0|t"
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\lfr:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\normal:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\heroic:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\mythic:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\myth+:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\timewalking:022|t"
 elseif GetLocale():match("^es") then
 	DIFFICULTY = "Dificultad"
 	LFR, NORMAL, HEROIC, MYTHIC, CHALLENGE, TIMEWALK = 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\lfr:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\normal:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\heroic:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\mythic:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\myth+:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\timewalking:0|t"
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\lfr:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\normal:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\heroic:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\mythic:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\myth+:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\timewalking:022|t"
 elseif GetLocale() == "frFR" then
 	DIFFICULTY = "Difficulté"
 	LFR, NORMAL, HEROIC, MYTHIC, CHALLENGE, TIMEWALK = 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\lfr:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\normal:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\heroic:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\mythic:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\myth+:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\timewalking:0|t"
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\lfr:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\normal:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\heroic:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\mythic:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\myth+:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\timewalking:022|t"
 elseif GetLocale() == "itIT" then
 	DIFFICULTY = "Difficoltà"
 	LFR, NORMAL, HEROIC, MYTHIC, CHALLENGE, TIMEWALK = 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\lfr:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\normal:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\heroic:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\mythic:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\myth+:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\timewalking:0|t"
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\lfr:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\normal:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\heroic:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\mythic:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\myth+:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\timewalking:022|t"
 elseif GetLocale() == "ptBR" then
 	DIFFICULTY = "Dificuldade"
 	LFR, NORMAL, HEROIC, MYTHIC, CHALLENGE, TIMEWALK = 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\lfr:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\normal:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\heroic:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\mythic:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\myth+:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\timewalking:0|t"
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\lfr:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\normal:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\heroic:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\mythic:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\myth+:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\timewalking:022|t"
 elseif GetLocale() == "ruRU" then
 	DIFFICULTY = "Сложность"
 	LFR, NORMAL, HEROIC, MYTHIC, CHALLENGE, TIMEWALK = 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\lfr:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\normal:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\heroic:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\mythic:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\myth+:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\timewalking:0|t"
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\lfr:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\normal:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\heroic:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\mythic:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\myth+:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\timewalking:022|t"
 elseif GetLocale() == "koKR" then
 	DIFFICULTY = "난이도"
 	LFR, NORMAL, HEROIC, MYTHIC, CHALLENGE, TIMEWALK = 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\lfr:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\normal:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\heroic:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\mythic:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\myth+:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\timewalking:0|t"
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\lfr:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\normal:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\heroic:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\mythic:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\myth+:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\timewalking:022|t"
 elseif GetLocale() == "zhCN" then
 	DIFFICULTY = "难度"
 	LFR, NORMAL, HEROIC, MYTHIC, CHALLENGE, TIMEWALK = 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\lfr:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\normal:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\heroic:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\mythic:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\myth+:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\timewalking:0|t"
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\lfr:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\normal:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\heroic:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\mythic:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\myth+:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\timewalking:022|t"
 elseif GetLocale() == "zhTW" then
 	DIFFICULTY = "難度"
 	LFR, NORMAL, HEROIC, MYTHIC, CHALLENGE, TIMEWALK = 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\lfr:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\normal:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\heroic:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\mythic:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\myth+:0|t", 
-"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\timewalking:0|t"
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\lfr:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\normal:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\heroic:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\mythic:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\myth+:022|t", 
+"|TInterface\\AddOns\\FastInstanceDifficulty\\Media\\Texture\\timewalking:022|t"
 end
 
 ------------------------------------------------------------------------
