@@ -2,7 +2,7 @@
 ## Title:|cffd6266cFastInstanceDifficulty|r
 ## Notes: Shows the current instance difficulty on your Titan Panel display.
 ## Author: BloodDragon2580
-## Version: 4.4
+## Version: 4.5
 ## IconTexture: Interface\AddOns\FastInstanceDifficulty\Media\Texture\logo
 
 embeds.xml
