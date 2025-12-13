@@ -1,4 +1,4 @@
-## Interface: 120000
+## Interface: 120001
 ## Title:|cffd6266cFastInstanceDifficulty|r
 ## Notes: Shows the current instance difficulty on your Titan Panel display.
 ## Author: BloodDragon2580
